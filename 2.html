@@ -1,0 +1,36 @@
+
+question 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <script src="1.js"></script>
+</head>
+<body>
+    <form >
+         <div  style="background: rgb(255, 194, 80);display: input; align-items: center;height: 500pc;" >
+       <div id="username"style="align center;" >
+         <input  id ="username"type="text" placeholder="username"><br></div>
+        Username <br>
+        <input type="text" id="password"placeholder="Password"><br> Password <br>
+
+        <input type="text"id="email" placeholder="abc@gmailcom"><br> Email <br>
+        <button onclick="submitform()" onclick="">Submit</button>
+    </div>
+    </form>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------
+function submitform()
+{
+ let username=document.querySelector("#username").Value;
+ const newElement=document.querySelector("username");
+ let password=document.querySelector("#password").value;
+ let email=document.querySelector("#email").value;
+ document.querySelector("#username").Value="";
+ 
+
+
+}
